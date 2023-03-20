@@ -1,0 +1,149 @@
+head:
+  title: "Sebastian Castro's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Sebastian Castro."
+  subtitle: "Data Scientist"
+  description: "Sebastian is a Data Scientist with a strong math background."
+  image:
+    x: "img/showcase/data-science.jpg"
+    _2x: "img/showcase/data-science.jpg"
+  imageMobile:
+    x: "img/showcase/data-science.jpg"
+    _2x: "img/showcase/data-science.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Sebastian"
+    URL: "sebastiancastrofragueiro@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/sebastian-jorge-castro/"
+
+    - icon: "github"
+      URL: "https://github.com/sebacastrocba"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I love data science.</strong> My passion is applying machine learning to solve bussiness problems. But, when I am not
+    building software, I enjoy vacationing with my family and friends. Also, I am a very good gardener!
+    </p>
+    <p class="lead">
+    <strong>My area of focus</strong> is applying data science to business. 
+    I create value for companies by understanding the financial
+    cost of problems and delivering a return-on-investment with my solutions. 
+    I enjoy learning, working with stakeholders, and making better decisions with data.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/sebastian-jorge-castro/"
+  image:
+    x: "img/who-am-i/foto_seba1.jpg"
+    _2x: "img/who-am-i/foto_seba1.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 3+ years of experience working with companies to solve bussiness problems. I design & develop data science products to help businesses increase profitability and improve customer experience."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/sebastian-jorge-castro/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Data Scientist"
+      company: "Splight-AE"
+      duration: "Mar 2022 - Jan 2023"
+
+    - title: "Data Scientist"
+      company: "Telecom Argentina"
+      duration: "Jun 2020 - Mar 2022"
+
+    - title: "Post-doctoral Researcher"
+      company: "CONICET - Argentina"
+      duration: "Nov 2011 - Mar 2014"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Universidad Tecnologica Nacional"
+      year: "2019"
+      degree: "Diploma in Big Data"
+
+    - university: "National University of Cordoba"
+      year: "2008-2010"
+      degree: "Ph.D. in Chemistry"
+      
+    - university: "National University of Cordoba"
+      year: "2002-2007"
+      degree: "Bachelor of Chemistry (Licenciate degree)"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+
+  works:
+    - title: "Sales Demand Forecast Application"
+      description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+      image:
+        x: "img/works/app_sales_demand_forecast.jpg"
+        _2x: "img/works/app_sales_demand_forecast.jpg"
+      is_even: true
+
+    - title: "Product Price Recommendation"
+      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+      image:
+        x: "img/works/app_cannondale_price_prediction.jpg"
+        _2x: "img/works/app_cannondale_price_prediction.jpg"
+      is_even: false
+
+    
+
+# contact
+contact:
+  enable: true
+  title: "Contact Sebastian"
+    
+  image:
+    x: "img/who-am-i/foto_seba2.jpg"
+    _2x: "img/who-am-i/foto_seba2.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:sebastiancastrofragueiro@gmail.com'
+  
+  email:
+    title: "Email"
+    email: '<a href="mailto:sebastiancastrofragueiro@gmail.com">sebastiancastrofragueiro@gmail.com</a>'
+  address:
+    title: "Current Location"
+    address: "Córdoba, Argentina"
+  
